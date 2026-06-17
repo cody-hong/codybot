@@ -63,7 +63,7 @@ Claude Code에서 플러그인 설치를 지원하는 경우 아래 방식으로
 
 이 방식은 Claude Code의 플러그인 기능을 사용하는 설치 방식입니다. 환경에 따라 실제 설치 가능 여부가 달라질 수 있으므로, 설치가 되지 않으면 위의 Codex 설치 방식이나 수동 설치 방식을 사용합니다.
 
-### Gemini CLI extension으로 설치하기
+### Gemini CLI extension으로 설치하기 [하단 Antigravity CLI (`agy`) 사용자 가이드 참고]
 
 Gemini CLI에서 extension 설치를 지원하는 경우 아래 명령어로 설치할 수 있습니다.
 
@@ -101,6 +101,30 @@ skills/codybot/SKILL.md
 ```
 
 `gemini-extension.json`은 Gemini CLI가 이 저장소를 extension으로 인식하기 위한 파일입니다. `GEMINI.md`는 extension이 로드될 때 기본 지침을 제공하고, `commands/codybot.toml`은 `/codybot` 명령을 제공하며, `skills/codybot/SKILL.md`는 실제 미션 코치 스킬 규칙을 담고 있습니다.
+
+ ### 🚀[추가] Antigravity CLI (`agy`) 사용자 가이드 
+ * Gemini cli가 26.06.18 종료됨에 따라 agy 사용 가이드를 첨부합니다.
+
+    Antigravity CLI 환경에서 편리하게 `codybot` 미션 코치를 추가하고 사용하는 방법입니다.
+
+    #### 1. Antigravity CLI 실행하기
+    터미널을 열고 아래 명령어를 입력하여 `agy` 대화창으로 진입합니다.
+    ```bash
+    agy
+
+  #### 2. 대화창에서 AI 에이전트에게 설치 요청하기
+
+  대화창이 열리면 아래와 같이 깃허브 주소를 주면서 설치해달라고 대화로 요청합니다.
+  (직접 명령어를 타이핑해 클론하고 설치할 필요 없이, AI 비서가 알아서 처리합니다.)
+
+  │ 요청 예시:
+  │ "이 깃허브 저장소에서 코디봇 플러그인 설치해줘: https://github.com/cody-hong/codyssey_B1_1"
+
+  #### 3. 코디봇 실행하기
+
+  설치가 완료되면 대화창에 아래 명령어를 입력하여 미션 코칭 서비스를 시작합니다.
+
+    /codybot
 
 ### 설치 후 기대 동작
 
