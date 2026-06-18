@@ -89,7 +89,7 @@ agy
 대화창이 열리면 아래처럼 GitHub 주소를 주고 설치를 요청합니다.
 
 ```text
-이 GitHub 저장소에서 코디봇 플러그인 설치해줘: https://github.com/cody-hong/codybot
+이 GitHub 저장소에서 코디봇 플러그인 설치해줘: gemini extensions install https://github.com/cody-hong/codybot
 ```
 
 #### 3. 코디봇 실행하기
