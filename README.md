@@ -74,11 +74,11 @@ gemini extensions install https://github.com/cody-hong/codybot
 
 ### Antigravity CLI (`agy`) 사용자 가이드
 
-Gemini CLI가 종료된 환경을 고려해 `agy`에서도 `codybot`을 사용할 수 있도록 안내합니다.
+`agy` 환경에서도 `codybot`을 참고용으로 사용할 수 있습니다.
 
 #### 1. Antigravity CLI 실행하기
 
-터미널을 열고 아래 명령어를 입력해 `agy` 대화창으로 진입합니다.
+터미널에서 아래 명령어를 입력해 `agy` 대화창으로 진입합니다.
 
 ```bash
 agy
@@ -99,6 +99,12 @@ agy
 ```text
 /codybot
 ```
+
+## 바로 붙여넣기용 프롬프트
+
+`prompt.md`에는 새 채팅창에 바로 붙여넣을 수 있는 통합 프롬프트가 들어 있습니다.
+
+처음 써보는 경우에는 이 파일을 먼저 복사해서 사용하면 됩니다.
 
 ## 기본 동작
 
