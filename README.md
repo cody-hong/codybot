@@ -150,4 +150,4 @@ skills/codybot/SKILL.md
 | `references/2026-06-04 좋은 프롬프트 만드는 방법 조사.md` | 공식 문서와 신뢰 가능한 자료 기반 프롬프트 작성법 조사 |
 
 
-* CLI설치 없이 사용하고 싶다 하시면 #prompt.md 이동 전문 붙여넣기 !
+* CLI설치 없이 사용하고 싶다 하시면 [#prompt.md](https://github.com/cody-hong/codybot/blob/main/prompt.md) 이동 전문 붙여넣기 !
